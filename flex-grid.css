@@ -1,0 +1,30 @@
+.grid {
+	width: 50%;
+	height: 500px;
+	border: 10px solid black;
+	margin: 20px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.col {
+	box-sizing: border-box;
+	border: 1px solid red;
+	min-height: 50px;
+
+	flex: 0 0 100%;
+}
+
+.col-2 {
+	flex: 0 0 50%;
+}
+
+.col-3 {
+	flex: 0 0 30%;
+}
+
+.col-4 {
+	flex: 0 0 22%;
+}
